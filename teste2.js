@@ -11,6 +11,7 @@ module.exports = function (req, res) {
         }
 
         const newUser = {
+            id: data.length + 1, // cria um id auto incrementável
             name,
             job,
         }
